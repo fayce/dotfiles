@@ -11,6 +11,11 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'sjl/badwolf'
 Plugin 'scrooloose/syntastic'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'bling/vim-airline'
+Plugin 'altercation/vim-colors-solarized'
+"Plugin 'honza/vim-snippets'
+Plugin 'jaxbot/browserlink.vim'
+Plugin 'alvan/vim-phpmanual'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -28,7 +33,9 @@ let g:syntastic_check_on_wq = 0
 "}}}
 " Colors {{{
 syntax enable           " enable syntax processing
+"set background=dark
 colorscheme badwolf
+"colorscheme solarized
 " }}}
 " Misc {{{
 set ttyfast                     " faster redraw
